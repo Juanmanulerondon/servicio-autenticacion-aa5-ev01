@@ -1,0 +1,24 @@
+{
+  "name": "servicio_autenticacion",
+  "version": "1.0.0",
+  "description": "Servicio web para registro de usuarios y autenticación mediante contraseñas protegidas.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "autenticacion",
+    "servicio-web",
+    "api",
+    "nodejs"
+  ],
+  "author": "Aprendiz SENA",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
